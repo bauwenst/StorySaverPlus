@@ -1,0 +1,22 @@
+{
+  "name": "story-saver-plus",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Save Instagram stories at full quality and frame rate, with audio.",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "watch": "node build.mjs --watch",
+    "typecheck": "tsc --noEmit",
+    "test": "node build.mjs --test"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "mediabunny": "^1.63.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.1.37",
+    "esbuild": "^0.25.11",
+    "typescript": "^5.9.3"
+  }
+}
